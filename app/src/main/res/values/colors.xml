@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="poc_primary">#1F6FEB</color>
+    <color name="poc_primary_dark">#15489A</color>
+    <color name="poc_bg">#101418</color>
+    <color name="poc_fg">#E6EDF3</color>
+</resources>
