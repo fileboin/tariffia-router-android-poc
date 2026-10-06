@@ -22,8 +22,8 @@ android {
         externalNativeBuild {
             cmake {
                 // Match the STL used by the prebuilt libnode.so (DT_NEEDED libc++_shared.so).
+                // The C++ standard is set in CMakeLists.txt (C++20, required by Node 24 headers).
                 arguments += listOf("-DANDROID_STL=c++_shared")
-                cppFlags += "-std=c++17"
             }
         }
     }

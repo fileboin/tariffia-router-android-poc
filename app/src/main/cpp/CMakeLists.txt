@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.22.1)
 project(nodepoc CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+# Node 24 V8 headers require C++20 (v8config.h: "C++20 or later required.").
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # CI stages the prebuilt fogtape libnode.so at app/src/main/jniLibs/<abi>/libnode.so
