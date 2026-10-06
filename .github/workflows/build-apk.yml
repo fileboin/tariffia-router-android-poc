@@ -2,7 +2,7 @@ name: Build PoC APK
 
 on:
   push:
-    branches: [main, poc/android-node24]
+    branches: [main, poc/android-node24, fix/cleartext-localhost]
   pull_request:
     branches: [main]
   workflow_dispatch:
