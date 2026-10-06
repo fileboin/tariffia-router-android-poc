@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tariffia PoC</string>
+    <string name="start">START Router</string>
+    <string name="stop">STOP (kill process)</string>
+    <string name="healthz">GET /healthz</string>
+    <string name="models">GET /v1/models</string>
+    <string name="messages">POST /v1/messages (no key)</string>
+    <string name="refresh">Refresh Node info</string>
+</resources>
