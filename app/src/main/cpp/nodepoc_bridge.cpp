@@ -14,8 +14,8 @@
 #include <thread>
 #include <vector>
 
-#include <node/node.h>
-#include <node/node_version.h>
+#include <node.h>
+#include <node_version.h>
 
 #define LOG_TAG "TariffiaPoc"
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
